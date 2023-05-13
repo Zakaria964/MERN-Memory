@@ -1,0 +1,73 @@
+.media {
+  height: 0;
+  padding-top: 56.25%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.border {
+  border: solid;
+}
+
+.fullHeightCard {
+  height: 100%;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 15px;
+  height: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+
+.title {
+  padding: 0 16px;
+}
+
+.cardActions {
+  padding: 0 16px 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

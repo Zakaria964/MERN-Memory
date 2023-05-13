@@ -1,0 +1,36 @@
+.paper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.root {
+  &-MuiTextField-root {
+    margin: 5px;
+  }
+}
+.avatar {
+  margin: 5px;
+  // background-color: yellow;
+}
+.form {
+  width: 100%;
+  margin-top: 15px;
+}
+.submit {
+  margin: 15px;
+  margin-left: -0px;
+}
+.googleButton {
+  position: relative;
+  right: -5px;
+  margin: 10px !important;
+}
+
+.switch {
+  position: relative;
+  right: -55px;
+  top: 10px;
+  padding-bottom: 10px;
+}
